@@ -13,7 +13,7 @@ npx eslint .
 
 echo -e "\n"
 read -p "Crear el archivo de configuración de Prettier"
-echo -e "{ \n\"semi\": false,\n\"singleQuote\": true\n}" > .prettierrc.json
+echo -e "{\n\"semi\": false,\n\"singleQuote\": true\n}" > .prettierrc.json
 
 echo -e "\n"
 read -p "Crear el archivo de ignorados de Prettier"
@@ -55,3 +55,4 @@ git commit -m "New project" --no-verify
 
 echo -e "\n"
 read -p "No olvides de configurar .prettierrc.json segun tu guía de estilo (Airbnb,Standard...)--> Finalizar"
+
