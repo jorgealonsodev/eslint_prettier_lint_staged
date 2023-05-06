@@ -1,2 +1,2 @@
-# eslint_prettier_lint_staged
+# ESlint, Prettier y Lint-staged
 Script de configuración para instalar ESlint con prettier y lint-staged.
