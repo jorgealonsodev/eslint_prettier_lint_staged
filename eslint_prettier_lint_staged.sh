@@ -54,5 +54,9 @@ git commit -m "New project" --no-verify
 
 
 echo -e "\n"
-read -p "No olvides de configurar .prettierrc.json segun tu guía de estilo (Airbnb,Standard...)--> Finalizar"
+read -p "No olvides de configurar .prettierrc.json segun tu guía de estilo (Airbnb,Standard...)"
+echo -e "\n"
+read -p "y añadir prettier en .eslintrc.js (Ej: extends: ['standard', 'eslint-config-prettier'],)"
+echo -e "\n"
+read -p "Finalizar"
 
