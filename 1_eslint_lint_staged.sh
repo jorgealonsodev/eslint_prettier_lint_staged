@@ -18,7 +18,7 @@ touch "*.js" > .prettierignore
 echo -e "\n"
 read -p "Iniciar git"
 echo ".eslintcache" > .gitignore
-echo "node_modules" > .gitignore
+echo "node_modules" >> .gitignore
 git init
 
 echo -e "\n"
