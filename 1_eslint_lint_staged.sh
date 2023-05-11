@@ -19,6 +19,10 @@ echo -e "\n"
 read -p "Iniciar git"
 echo ".eslintcache" > .gitignore
 echo "node_modules" >> .gitignore
+echo "1_eslint_lint_staged.sh" >> .gitignore
+echo "2_eslint_prettier_lint_staged" >> .gitignore
+
+
 git init
 
 echo -e "\n"
