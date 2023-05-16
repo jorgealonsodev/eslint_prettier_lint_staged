@@ -17,7 +17,7 @@ echo -e "{\n\"semi\": false,\n\"singleQuote\": true\n}" > .prettierrc.json
 
 echo -e "\n"
 read -p "Crear el archivo de ignorados de Prettier"
-echo .prettierignore
+echo "*.js" > .prettierignore
 
 echo -e "\n"
 read -p "Agregar la configuración de ESLint para trabajar con Prettier"
