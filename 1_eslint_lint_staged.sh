@@ -13,7 +13,7 @@ npx eslint .
 
 echo -e "\n"
 read -p "Crear el archivo de ignorados de Prettier, y lo deshabilitamos en js"
-touch "*.js" > .prettierignore
+echo "*.js" > .prettierignore
 
 echo -e "\n"
 read -p "Iniciar git"
